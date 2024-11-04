@@ -1,0 +1,40 @@
+* {
+}
+
+.magnifying-glass {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid rgb(236, 232, 232);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid rgb(236, 232, 232);
+}
+
+.links a {
+  padding: 1rem;
+  text-decoration: none;
+  color: gray;
+}
+
+.user-panel {
+  display: flex;
+  align-items: center;
+}
+
+.bell {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.user-panel img {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
