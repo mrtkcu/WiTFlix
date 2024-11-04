@@ -1,18 +1,24 @@
-* {
+body {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.magnifying-glass {
-  background-color: white;
-  border: none;
-  border-bottom: 1px solid rgb(236, 232, 232);
-}
+/* HEADER CSS STARTS */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+h1 {
+  color: red;
+}
 
 input {
+  border: none;
+  border-bottom: 1px solid rgb(236, 232, 232);
+}
+.magnifying-glass {
+  background-color: white;
   border: none;
   border-bottom: 1px solid rgb(236, 232, 232);
 }
@@ -38,3 +44,135 @@ input {
   width: 1.5rem;
   height: 1.5rem;
 }
+
+/* HEADER CSS ENDS */
+
+/* HERO CSS STARTS */
+
+.hero {
+  display: flex;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.hero-item {
+  width: 50%;
+  margin: 8rem 0 8rem 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.stars {
+  color: red;
+}
+
+.user-score {
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+.movie-rating {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+
+.imdb {
+  margin-right: 1rem;
+}
+
+.duration {
+  font-weight: bold;
+}
+
+.starring,
+.genre,
+.tags {
+  color: red;
+  font-weight: 900;
+}
+
+.btn-play-hero {
+  background-color: red;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  margin-top: 1.75rem;
+}
+
+.btn-play {
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+/* HERO CSS STARTS */
+
+/* POPULAR SECTION STARTS */
+.popular-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-item {
+  border: solid black 1px;
+  padding: 2rem 15rem 2rem 2rem;
+}
+
+/* POPULAR SECTION ENDS */
+
+/* RECOMMENDING SECTION STARTS */
+.recommend-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend-item {
+  border: solid black 1px;
+  padding: 2rem 15rem 2rem 2rem;
+}
+
+/* RECOMMENDING SECTION ENDS */
+
+/* FOOTER SECTION STARTS */
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.terms {
+  width: 70%;
+}
+
+.terms nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.socials-menu .socials {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.apps-menu .apps img {
+  width: 5rem;
+}
+/* FOOTER SECTION ENDS */

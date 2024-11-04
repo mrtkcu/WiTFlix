@@ -33,24 +33,35 @@
       <div class="hero-item">
         <h2>MOVIE NAME</h2>
         <div class="pre-info">
-          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-          ><i class="fa-regular fa-star"></i> <span>7.3</span> IMDB
-          <span>16+</span>
-          <span>2 hr 21 min</span>
+          <span class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-regular fa-star"></i>
+          </span>
+          <span class="user-score">7.3</span> <span class="imdb">IMDB</span>
+          <span class="movie-rating">16+</span>
+          <span class="duration">2 hr 21 min</span>
         </div>
         <p class="description">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
           tenetur magnam? Magni, repudiandae voluptatibus possimus odit soluta
           quos sint dolore blanditiis illum nostrum ipsam optio excepturi,
-          cumque, esse laboriosam nobis!
+          cumque, esse laboriosam nobis! Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Iusto, incidunt! Illo, velit, fugiat quia aut alias
+          magni doloremque ipsum eveniet debitis nemo error minus voluptate
+          praesentium. Tenetur error ea ipsam.
         </p>
         <div class="more-info">
-          <p><span>Starring:</span>Lorem ipsum, Lorem ipsum, Lorem ipsum</p>
-          <p><span>Genre:</span>Lorem, Ipsum, Color</p>
-          <p><span>Tags:</span>Lorem, Ipsum, Color</p>
+          <p>
+            <span class="starring">Starring: </span>Lorem ipsum, Lorem ipsum,
+            Lorem ipsum
+          </p>
+          <p><span class="genre">Genre: </span>Lorem, Ipsum, Color</p>
+          <p><span class="tags">Tags: </span>Lorem, Ipsum, Color</p>
         </div>
-        <button><i class="fa-solid fa-play"></i>Play Now</button>
+        <button class="btn-play-hero">
+          <i class="fa-solid fa-play"></i>Play Now
+        </button>
       </div>
     </main>
     <section class="popular">
@@ -58,20 +69,37 @@
         <h4>Popular Movies</h4>
         <p>View All</p>
       </div>
-      <div class="popular-item">
-        <h3></h3>
-        <p><span>16+</span><span>2 hr 21 min</span></p>
-        <button><i class="fa-solid fa-play"></i> Play Now</button>
-      </div>
-      <div class="popular-item">
-        <h3></h3>
-        <p><span>16+</span><span>2 hr 21 min</span></p>
-        <button><i class="fa-solid fa-play"></i> Play Now</button>
-      </div>
-      <div class="popular-item">
-        <h3></h3>
-        <p><span>16+</span><span>2 hr 21 min</span></p>
-        <button><i class="fa-solid fa-play"></i> Play Now</button>
+      <div class="popular-item-container">
+        <div class="popular-item">
+          <h3>MOVIE NAME</h3>
+          <p>
+            <span class="movie-rating">16+</span
+            ><span class="duration">2 hr 21 min</span>
+          </p>
+          <button class="btn-play">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+        <div class="popular-item">
+          <h3>MOVIE NAME</h3>
+          <p>
+            <span class="movie-rating">16+</span
+            ><span class="duration">2 hr 21 min</span>
+          </p>
+          <button class="btn-play">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+        <div class="popular-item">
+          <h3>MOVIE NAME</h3>
+          <p>
+            <span class="movie-rating">16+</span
+            ><span class="duration">2 hr 21 min</span>
+          </p>
+          <button class="btn-play">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
       </div>
     </section>
     <section class="recommend">
@@ -79,24 +107,32 @@
         <h4>Recommended for You</h4>
         <p>View All</p>
       </div>
-      <div class="recommend-item">
-        <h3></h3>
-        <p><span>16+</span><span>2 hr 21 min</span></p>
-        <button><i class="fa-solid fa-play"></i> Play Now</button>
-      </div>
-      <div class="recommend-item">
-        <h3></h3>
-        <p><span>16+</span><span>2 hr 21 min</span></p>
-        <button><i class="fa-solid fa-play"></i> Play Now</button>
-      </div>
-      <div class="recommend-item">
-        <h3></h3>
-        <p><span>16+</span><span>2 hr 21 min</span></p>
-        <button><i class="fa-solid fa-play"></i> Play Now</button>
+      <div class="recommend-item-container">
+        <div class="recommend-item">
+          <h3>MOVIE NAME</h3>
+          <p><span>16+</span><span>2 hr 21 min</span></p>
+          <button class="btn-play">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+        <div class="recommend-item">
+          <h3>MOVIE NAME</h3>
+          <p><span>16+</span><span>2 hr 21 min</span></p>
+          <button class="btn-play">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
+        <div class="recommend-item">
+          <h3>MOVIE NAME</h3>
+          <p><span>16+</span><span>2 hr 21 min</span></p>
+          <button class="btn-play">
+            <i class="fa-solid fa-play"></i> Play Now
+          </button>
+        </div>
       </div>
     </section>
     <footer>
-      <div>
+      <div class="terms">
         <nav>
           <a href="">Terms of Use</a>
           <a href="">Privacy Policy</a>
@@ -110,7 +146,7 @@
           enim autem modi.
         </p>
       </div>
-      <div>
+      <div class="socials-menu">
         <p>Follow Us</p>
         <div class="socials">
           <i class="fa-brands fa-square-facebook"></i>
@@ -118,11 +154,11 @@
           <i class="fa-brands fa-youtube"></i>
         </div>
       </div>
-      <div>
+      <div class="apps-menu">
         <p>Apps</p>
         <div class="apps">
-          <img src="./svg/app-store.svg" alt="" width="40px" />
-          <img src="./svg/google-store.svg" alt="" width="40px" />
+          <img src="./svg/app-store.svg" alt="" />
+          <img src="./svg/google-store.svg" alt="" />
         </div>
       </div>
     </footer>
