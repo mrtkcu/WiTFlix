@@ -162,3 +162,43 @@ h1 {
 }
 
 /*suggestion section css ends*/
+
+/* footer css starts*/
+footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  justify-content: space-between;
+}
+
+.social-icons {
+  font-size: 2em;
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.apps div {
+  display: flex;
+  flex-direction: column;
+}
+
+.apps img {
+  width: 6rem;
+}
+
+/* footer css ends*/
