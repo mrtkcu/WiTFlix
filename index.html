@@ -3,164 +3,289 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WiTFlix</title>
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>WiTFliX</title>
   </head>
   <body>
-    <header>
-      <h1>WitFlix</h1>
-      <div class="links">
-        <a href="#">Topic 1</a>
-        <a href="#">Topic 2</a>
-        <a href="#">Topic 3</a>
-        <a href="#">Topic 4</a>
-      </div>
-
-      <div class="user-panel">
-        <input size="12" placeholder="Search" />
-        <button class="magnifying-glass">
-          <i class="fa-solid fa-magnifying-glass white"></i>
-        </button>
-        <i class="fa-solid fa-bell bell"></i>
-        <img src="https://picsum.photos/200/300" />
-      </div>
-    </header>
-    <main class="hero">
-      <div class="hero-item">
-        <h2>MOVIE NAME</h2>
-        <div class="pre-info">
-          <span class="stars">
-            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-            ><i class="fa-regular fa-star"></i>
-          </span>
-          <span class="user-score">7.3</span> <span class="imdb">IMDB</span>
-          <span class="movie-rating">16+</span>
-          <span class="duration">2 hr 21 min</span>
-        </div>
-        <p class="description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
-          tenetur magnam? Magni, repudiandae voluptatibus possimus odit soluta
-          quos sint dolore blanditiis illum nostrum ipsam optio excepturi,
-          cumque, esse laboriosam nobis! Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Iusto, incidunt! Illo, velit, fugiat quia aut alias
-          magni doloremque ipsum eveniet debitis nemo error minus voluptate
-          praesentium. Tenetur error ea ipsam.
-        </p>
-        <div class="more-info">
-          <p>
-            <span class="starring">Starring: </span>Lorem ipsum, Lorem ipsum,
-            Lorem ipsum
-          </p>
-          <p><span class="genre">Genre: </span>Lorem, Ipsum, Color</p>
-          <p><span class="tags">Tags: </span>Lorem, Ipsum, Color</p>
-        </div>
-        <button class="btn-play-hero">
-          <i class="fa-solid fa-play"></i>Play Now
-        </button>
-      </div>
-    </main>
-    <section class="popular">
-      <div class="popular-header">
-        <h4>Popular Movies</h4>
-        <p>View All</p>
-      </div>
-      <div class="popular-item-container">
-        <div class="popular-item">
-          <h3>MOVIE NAME</h3>
-          <p>
-            <span class="movie-rating">16+</span
-            ><span class="duration">2 hr 21 min</span>
-          </p>
-          <button class="btn-play">
-            <i class="fa-solid fa-play"></i> Play Now
-          </button>
-        </div>
-        <div class="popular-item">
-          <h3>MOVIE NAME</h3>
-          <p>
-            <span class="movie-rating">16+</span
-            ><span class="duration">2 hr 21 min</span>
-          </p>
-          <button class="btn-play">
-            <i class="fa-solid fa-play"></i> Play Now
-          </button>
-        </div>
-        <div class="popular-item">
-          <h3>MOVIE NAME</h3>
-          <p>
-            <span class="movie-rating">16+</span
-            ><span class="duration">2 hr 21 min</span>
-          </p>
-          <button class="btn-play">
-            <i class="fa-solid fa-play"></i> Play Now
-          </button>
-        </div>
-      </div>
-    </section>
-    <section class="recommend">
-      <div class="recommend-header">
-        <h4>Recommended for You</h4>
-        <p>View All</p>
-      </div>
-      <div class="recommend-item-container">
-        <div class="recommend-item">
-          <h3>MOVIE NAME</h3>
-          <p><span>16+</span><span>2 hr 21 min</span></p>
-          <button class="btn-play">
-            <i class="fa-solid fa-play"></i> Play Now
-          </button>
-        </div>
-        <div class="recommend-item">
-          <h3>MOVIE NAME</h3>
-          <p><span>16+</span><span>2 hr 21 min</span></p>
-          <button class="btn-play">
-            <i class="fa-solid fa-play"></i> Play Now
-          </button>
-        </div>
-        <div class="recommend-item">
-          <h3>MOVIE NAME</h3>
-          <p><span>16+</span><span>2 hr 21 min</span></p>
-          <button class="btn-play">
-            <i class="fa-solid fa-play"></i> Play Now
-          </button>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="terms">
-        <nav>
-          <a href="">Terms of Use</a>
-          <a href="">Privacy Policy</a>
-          <a href="">FAQ</a>
-          <a href="">Watch List</a>
+    <div class="general-center-container">
+      <header>
+        <h1 class="reddish">WitFlix</h1>
+        <nav class="header-nav">
+          <a href="">Topic 1</a>
+          <a href="">Topic 2</a>
+          <a href="">Topic 3</a>
+          <a href="">Topic 4</a>
         </nav>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-          ipsum assumenda tempora ea obcaecati qui excepturi? Reprehenderit sint
-          maxime hic quam rem, numquam voluptatibus. Corporis officia laboriosam
-          enim autem modi.
-        </p>
-      </div>
-      <div class="socials-menu">
-        <p>Follow Us</p>
-        <div class="socials">
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-square-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
+        <div class="user-panel">
+          <input type="text" placeholder="Search..." class="search-bar" />
+          <i class="fa-solid fa-bell notifications"></i>
+          <img class="avatar" src="https://picsum.photos/50" alt="" />
         </div>
-      </div>
-      <div class="apps-menu">
-        <p>Apps</p>
-        <div class="apps">
-          <img src="./svg/app-store.svg" alt="" />
-          <img src="./svg/google-store.svg" alt="" />
+      </header>
+      <main class="hero">
+        <div class="main-container">
+          <img
+            class="main-image"
+            src="./assets/images/Reservoir_Dogs_1.jpg"
+            alt=""
+          />
+          <div class="main-movie">
+            <h2>MOVIE NAME</h2>
+            <div class="main-movie-info">
+              <i class="fa-solid fa-star reddish"></i
+              ><i class="fa-solid fa-star reddish"></i
+              ><i class="fa-solid fa-star reddish"></i
+              ><i class="fa-solid fa-star reddish"></i
+              ><i class="fa-regular fa-star reddish"></i
+              ><span class="user-rating bold"> 7.3 </span> IMDB
+              <span class="movie-rating">16+</span
+              ><span class="movie-duration bold"> 2 hr 21 min</span>
+            </div>
+            <div class="main-movie-description">
+              <p class="main-movie-p">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dignissimos praesentium omnis natus veniam similique architecto
+                voluptate tempore ipsa illo, consequuntur accusantium adipisci
+                dolore odio sit eveniet dolorem dolores deleniti recusandae.
+              </p>
+              <p class="main-movie-details">
+                <span class="reddish bold">Starring: </span>Lorem ipsum, Lorem
+                ipsum, Lorem ipsum
+              </p>
+              <p><span class="reddish bold">Genre: </span>Lorem ipsum,</p>
+              <p>
+                <span class="reddish bold">Tags: </span>Lorem ipsum, Lorem
+                ipsum, Lorem ipsum
+              </p>
+            </div>
+            <button class="main-button bold">
+              <i class="fa-solid fa-play play-icon"></i>Play Now
+            </button>
+          </div>
         </div>
-      </div>
-    </footer>
+      </main>
+      <section class="suggestion">
+        <div class="suggestion-row">
+          <div class="suggestion-title">
+            <h4>Popular Movies</h4>
+            <a href="">View All</a>
+          </div>
+          <div class="movie-card-container">
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="suggestion-row">
+          <div class="suggestion-title">
+            <h4>Popular Movies</h4>
+            <a href="">View All</a>
+          </div>
+          <div class="movie-card-container">
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+            <div class="movie-card">
+              <h3>MOVIE NAME</h3>
+              <div class="movie-info">
+                <span class="movie-rating">16+</span
+                ><span class="movie-duration bold">2 hr 21 min</span>
+              </div>
+              <button class="movie-card-button">
+                <i class="fa-solid fa-play"></i>Play Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-info">
+          <nav class="footer-links">
+            <a href="">Terms Of Use</a>
+            <a href="">Privacy Policy</a>
+            <a href="">FAQ</a>
+            <a href="">Watch List</a>
+          </nav>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            consequatur voluptas dolor reprehenderit? Consectetur minima quasi
+            facilis deserunt porro soluta sapiente vero, nisi maiores odio,
+            dignissimos nulla. Doloribus, quae accusamus.
+          </p>
+        </div>
+        <div class="social">
+          <span>Follow Us</span>
+          <div class="social-icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+          </div>
+        </div>
+        <div class="app">
+          <span>Apps</span>
+          <div class="app-imgs">
+            <img src="./assets/images/appStore.png" width="30px" alt="" />
+            <img src="./assets/images/googlePlay.png" width="30px" alt="" />
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,32 +1,46 @@
 body {
+  font-family: "Montserrat";
+}
+
+.general-center-container {
   width: 80%;
   margin: 0 auto;
 }
 
-/* HEADER CSS STARTS */
+.reddish {
+  color: #ff4757;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #2f3542;
+}
+
+a:hover {
+  color: #ff4757;
+}
+
+/*header css starts*/
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 h1 {
-  color: red;
-}
-
-input {
-  border: none;
-  border-bottom: 1px solid rgb(236, 232, 232);
-}
-.magnifying-glass {
-  background-color: white;
-  border: none;
-  border-bottom: 1px solid rgb(236, 232, 232);
-}
-
-.links a {
+  text-transform: uppercase;
   padding: 1rem;
-  text-decoration: none;
-  color: gray;
+  margin-left: 0.4rem;
+  border-radius: 15%;
+  letter-spacing: 0.2rem;
+}
+
+.header-nav a {
+  padding: 1rem;
 }
 
 .user-panel {
@@ -34,145 +48,117 @@ input {
   align-items: center;
 }
 
-.bell {
-  padding: 0.5rem;
-  font-size: 1.4rem;
-}
-
-.user-panel img {
-  border-radius: 50%;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-/* HEADER CSS ENDS */
-
-/* HERO CSS STARTS */
-
-.hero {
-  display: flex;
-  align-items: center;
-  border: solid black 1px;
-}
-
-.hero-item {
-  width: 50%;
-  margin: 8rem 0 8rem 2rem;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-.stars {
-  color: red;
-}
-
-.user-score {
-  font-weight: bold;
-  margin-right: 0.3rem;
-}
-
-.movie-rating {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 0.3rem;
-  margin-right: 1rem;
-}
-
-.imdb {
-  margin-right: 1rem;
-}
-
-.duration {
-  font-weight: bold;
-}
-
-.starring,
-.genre,
-.tags {
-  color: red;
-  font-weight: 900;
-}
-
-.btn-play-hero {
-  background-color: red;
-  padding: 1rem 2rem;
+.search-bar {
+  background-image: url("assets/images/search-icon.png");
+  background-size: 8%;
+  background-repeat: no-repeat;
+  background-position: right;
   border: none;
-  border-radius: 0.5rem;
-  color: white;
-  margin-top: 1.75rem;
 }
 
-.btn-play {
-  background-color: red;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 0.5rem;
-  color: white;
-}
-
-/* HERO CSS STARTS */
-
-/* POPULAR SECTION STARTS */
-.popular-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.popular-item-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.popular-item {
-  border: solid black 1px;
-  padding: 2rem 15rem 2rem 2rem;
-}
-
-/* POPULAR SECTION ENDS */
-
-/* RECOMMENDING SECTION STARTS */
-.recommend-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.recommend-item-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.recommend-item {
-  border: solid black 1px;
-  padding: 2rem 15rem 2rem 2rem;
-}
-
-/* RECOMMENDING SECTION ENDS */
-
-/* FOOTER SECTION STARTS */
-footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 4rem;
-}
-
-.terms {
-  width: 70%;
-}
-
-.terms nav {
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
-}
-
-.socials-menu .socials {
-  margin-top: 3rem;
+.notifications {
+  margin-left: 1.5rem;
   font-size: 1.5rem;
 }
 
-.apps-menu .apps img {
-  width: 5rem;
+.avatar {
+  width: 2rem;
+  border-radius: 50%;
+  margin-left: 0.2rem;
 }
-/* FOOTER SECTION ENDS */
+/*header css ends*/
+
+/*main css starts*/
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border: #2f3542 solid 1px;
+  padding-left: 1rem;
+}
+
+.main-container {
+  width: 50%;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.main-movie {
+  margin-top: 5rem;
+}
+
+.movie-rating {
+  border: solid 1px #2f3542;
+  border-radius: 20%;
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+
+.movie-duration {
+  margin-left: 1rem;
+}
+
+.main-button {
+  background-color: #ff4757;
+  padding: 1rem;
+  border-radius: 5%;
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.play-icon {
+  margin-right: 0.5rem;
+}
+
+/*main css ends*/
+
+/*suggestion section css starts*/
+.suggestion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #2f3542;
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+
+.movie-card-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  overflow-x: scroll;
+  gap: 5rem;
+}
+
+.movie-card {
+  border: 1px solid black;
+  min-width: 400px;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-info {
+  margin-bottom: 2rem;
+}
+
+.movie-card-button {
+  background-color: #ff4757;
+  padding: 1rem;
+  border-radius: 5%;
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*suggestion section css ends*/
