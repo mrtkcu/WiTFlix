@@ -62,7 +62,7 @@ header .burger-menu {
 .search-bar {
   padding-right: 1.1rem;
   background-image: url("assets/images/search-icon.png");
-  background-size: 8%;
+  background-size: 9%;
   background-repeat: no-repeat;
   background-position: right;
   border: none;
@@ -233,10 +233,18 @@ footer {
 
   header .burger-menu {
     display: block;
+    cursor: pointer;
   }
 
   header .user-panel {
     display: none;
+    flex-direction: column;
+  }
+
+  .burger-menu:hover + .user-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .hero {
@@ -252,7 +260,8 @@ footer {
   }
 
   .main-button {
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
   }
 
   footer {
